@@ -7,7 +7,7 @@ when array.length == 2
   array.insert(1, " and ").join()
 when array.length == 3
      array.each do|items| 
-    if items == a[2]
+    if items == array[2]
     array.pop
     array << "and starfruit"
     puts array.join(", ")
