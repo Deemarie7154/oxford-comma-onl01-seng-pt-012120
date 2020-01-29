@@ -10,7 +10,7 @@ when array.length == 3
     if items == a[2]
     array.pop
     array << "and starfruit"
-   b = puts array.join(", ")
+    puts array.join(", ")
     end
     
     end
