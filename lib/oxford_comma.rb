@@ -6,11 +6,11 @@ when array.length == 1
 when array.length == 2
   array.insert(1, " and ").join()
 when array.length == 3
-     a.each do|items| 
+     array.each do|items| 
     if items == a[2]
-    a.pop
-    a << "and starfruit"
-   b = puts a.join(", ")
+    array.pop
+    array << "and starfruit"
+   b = puts array.join(", ")
     end
     
     end
